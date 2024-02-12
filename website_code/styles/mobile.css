@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&display=swap');
+
+.nav {
+    position: fixed;
+    top: 66px;
+    left: 0;
+    background-color: #00BF7D;
+    width: 100%;
+    padding: 10px;
+    transform: translateX(-100%);
+    position: absolute;
+}
+.navOpen {
+    transform: translate(0);
+}
+.navList {
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.burger {
+    display: block;
+}
+
+.dropList {
+    width: 100%;
+    top: 100%;
+    position: relative;
+    box-shadow: none;
+    left: 0;
+}
+
+#home, #home p, #map h2{
+    width: auto;
+}
+#map .googleMap {
+    min-width: auto;
+}
+
+.row {
+    display: block;
+    width: 100%;
+}
+.row > * {
+    width: 100%;
+}
+
+.fac-base {
+    margin: auto;
+}
+
+#facilities .fac-base {
+    max-width: 350px;
+    align-items: center;
+}
+
+.column, .courseItem, .slider {
+    width: auto;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.yellow, .orange {
+    width: 300px;
+}
+.yellow {
+    margin-bottom: 5px;
+}
+.orange {
+    margin-top: 5px;
+}
+
+.cor-allList, .cor-artlist, .cor-complist {
+    width: 100%;
+}
+#logoImg {
+    max-width: 330px;
+    height: auto;
+}
